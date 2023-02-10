@@ -8,12 +8,12 @@ const servidor = http.createServer((req, res) => {
     // console.log(req.headers);
 
     // RESPUESTA
-    console.log("===> res (respuesta)");
-    console.log(res.statusCode);
+    // console.log("===> res (respuesta)");
+    // console.log(res.statusCode);
     // res.statusCode = 404
     // console.log(res.statusCode);
-    res.setHeader('content-type', 'application/json');
-    console.log(res.getHeaders());
+    // res.setHeader('content-type', 'application/json');
+    // console.log(res.getHeaders());
     res.end("Hola, mundo");
 });
 
