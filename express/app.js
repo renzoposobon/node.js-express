@@ -19,12 +19,6 @@ app.get('/api/cursos', (req, res) => {
     res.send(infoCursos)
 })
 
-// Programacion
-
-
-// Matemáticas
-
-
 const PUERTO = process.env.PORT || 3000
 
 app.listen(PUERTO, () => {
